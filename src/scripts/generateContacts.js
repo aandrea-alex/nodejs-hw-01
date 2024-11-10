@@ -4,7 +4,7 @@ import { writeContacts } from '../utils/writeContacts.js';
 
 const generateContacts = async (number) => {
   try {
-    const currentContacts = await readContacts();  
+    const currentContacts = await readContacts();
     const newContacts = [];
 
     for (let i = 0; i < number; i++) {
