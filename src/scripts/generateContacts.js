@@ -15,9 +15,9 @@ const generateContacts = async (number) => {
 
     writeContacts(updatedContacts);
 
-    console.log(`${number} нових контактів успішно додано.`);
+    console.log(`${number} new contacts added.`);
   } catch (error) {
-    console.error('Помилка при генерації контактів:', error);
+    console.error('Error generating contacts: ', error);
   }
 };
 
